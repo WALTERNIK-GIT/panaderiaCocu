@@ -1,0 +1,22 @@
+.efectoimg:hover{
+    filter: opacity(40%);
+}
+
+@media all and (max-width: 576px) {
+    .img-responsive /*el punto es un selector de clase */ {
+        height: 350px;
+        object-fit: cover; /*esta propiedad sirve para recortar los bordes de la imagen para que no se pierda
+        la calidad al estirarla, el valor para esta propiedad debe ser: cover*/
+    }
+}
+.mapaamper{
+    text-decoration: none;
+}
+
+.InicioM{
+    text-decoration: none; color: black;
+}
+.ProductosM{
+    text-decoration: none; color: black;
+}
+/*git parte 1*/
